@@ -4,13 +4,13 @@
 
 **注意：这个项目刚刚开始，它有几个功能还做得不是很好——例如 VT 控制字符转译。**
 
-Printer-terminal 是一个模拟终端程序，它从键盘获取输入发送给命令行进程（比如 Shell 程序），然后向打印机发送进程的输出。在这个过程中，它将会把键盘输入中的某些控制字符处理成信号发送给程序，并将输出中的VT控制符转译成 ESC/POS 控制符。由于其使用了 Windows ConPTY API ，所以无法在 Windows  10 1809 前的 Windows 上运行。
+Printer-terminal 是一个模拟终端程序，它从键盘获取输入发送给命令行进程（比如 Shell 程序），然后向打印机发送进程的输出。在这个过程中，它将会把键盘输入发送给程序，并将输出中的VT控制符转译成 ESC/POS 控制符发给打印机。由于其使用了 Windows ConPTY API ，所以无法在 Windows  10 1809 前的 Windows 上运行。
 
 因为我没有运行在实机上的 Linux 或其他任何 POSIX 兼容操作系统，所以我只为 Windows 编写了这个。将考虑在未来提供 Linux 兼容的代码。
 
 #### 运行
 
-整个pull下来,然后用VS打开 sIn , 编译运行吧。
+整个clone下来，然后用VS打开 printer-terminal.sIn , 编译运行吧。
 
 #### 为什么我某些程序（例如，neofetch）的输出是乱的？
 
