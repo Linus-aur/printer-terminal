@@ -10,7 +10,7 @@ Printer-terminal 是一个模拟终端程序，它从键盘获取输入发送给
 
 #### 运行
 
-整个clone下来，然后用VS打开 printer-terminal.sIn , 编译运行吧。
+整个clone下来，然后用VS打开 printer-terminal.sln , 编译运行吧。
 
 #### 为什么我某些程序（例如，neofetch）的输出是乱的？
 
