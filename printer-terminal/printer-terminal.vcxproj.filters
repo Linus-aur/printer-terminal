@@ -21,9 +21,21 @@
     <ClCompile Include="Printer_IO.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Pseudo_Console.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Printer_IO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pseudo_Console.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

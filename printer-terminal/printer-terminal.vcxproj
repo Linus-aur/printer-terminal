@@ -123,11 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Parser.cpp" />
     <ClCompile Include="printer-terminal.cpp" />
     <ClCompile Include="Printer_IO.cpp" />
+    <ClCompile Include="Pseudo_Console.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Parser.h" />
     <ClInclude Include="Printer_IO.h" />
+    <ClInclude Include="Pseudo_Console.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
